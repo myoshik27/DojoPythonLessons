@@ -7,6 +7,7 @@ class bike(object):
 	def displayInfo(self):
 		print 'The bike cost: $'+str(self.price)+' goes a top speed of '+self.max_speed, 'and has been riden ', self.miles, 'miles!'
 		return self
+		
 	def ride(self, rides=1):
 		if (rides <= 0):
 			print 'No such things as negative riding, get your shit together'
